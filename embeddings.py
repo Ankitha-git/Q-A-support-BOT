@@ -117,7 +117,6 @@ def main():
     
     print(f"Found {len(documents)} documents\n")
     
-    # Process and embed
     processor = EmbeddingProcessor()
     processor.process_documents(documents)
     processor.get_stats()
